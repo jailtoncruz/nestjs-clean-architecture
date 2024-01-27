@@ -1,0 +1,1 @@
+{"version":3,"file":"auth.provider.js","sourceRoot":"","sources":["../../../../src/infraestructure/cloud/providers/auth.provider.ts"],"names":[],"mappings":";;;AAAA,sEAAkE;AAClE,gEAAoE;AACpE,4DAA4D;AAC5D,8DAAgE;AAEnD,QAAA,mBAAmB,GAAG;IACjC,OAAO,EAAE,0BAAW;IACpB,QAAQ,EAAE,0BAAe,CAAC,CAAC,CAAC,gCAAiB,CAAC,CAAC,CAAC,8BAAe;CAChE,CAAC"}

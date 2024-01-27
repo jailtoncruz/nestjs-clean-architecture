@@ -1,0 +1,1 @@
+{"version":3,"file":"logger-service.js","sourceRoot":"","sources":["../../../src/core/abstract/logger-service.ts"],"names":[],"mappings":";;;AAAA,2CAAwC;AAExC,MAAsB,aAAc,SAAQ,eAAM;IAChD,YAAY,OAAe;QACzB,KAAK,CAAC,OAAO,CAAC,CAAC;IACjB,CAAC;IAED,UAAU,CAAC,OAAe;QACxB,IAAI,CAAC,OAAO,GAAG,OAAO,CAAC;IACzB,CAAC;CACF;AARD,sCAQC"}
