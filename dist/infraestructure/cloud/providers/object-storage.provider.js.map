@@ -1,1 +1,0 @@
-{"version":3,"file":"object-storage.provider.js","sourceRoot":"","sources":["../../../../src/infraestructure/cloud/providers/object-storage.provider.ts"],"names":[],"mappings":";;;AAAA,0EAA6E;AAC7E,gEAAoE;AACpE,0FAAyF;AACzF,4FAA6F;AAEhF,QAAA,4BAA4B,GAAG;IAC1C,OAAO,EAAE,qCAAoB;IAC7B,QAAQ,EAAE,0BAAe;QACvB,CAAC,CAAC,mDAA0B;QAC5B,CAAC,CAAC,iDAAwB;CAC7B,CAAC"}
