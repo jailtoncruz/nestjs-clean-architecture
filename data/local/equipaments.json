@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Caterpillar 320D",
+    "description": "The Caterpillar 320D is a popular excavator model known for its power and precision in excavation work.",
+    "type": "Excavator"
+  },
+  {
+    "name": "Komatsu PC200",
+    "description": "The Komatsu PC200 is a reliable excavator used in various construction projects for its durability and efficiency.",
+    "type": "Excavator"
+  },
+  {
+    "name": "Caterpillar D6",
+    "description": "The Caterpillar D6 bulldozer is a heavy-duty machine designed for earthmoving and land grading.",
+    "type": "Bulldozer"
+  },
+  {
+    "name": "John Deere 850J",
+    "description": "The John Deere 850J is a versatile bulldozer known for its stability and control during grading tasks.",
+    "type": "Bulldozer"
+  },
+  {
+    "name": "JCB 3CX",
+    "description": "The JCB 3CX is a popular backhoe loader known for its efficient digging and loading capabilities.",
+    "type": "BackhoeLoader"
+  },
+  {
+    "name": "Case 580 Super N",
+    "description": "The Case 580 Super N backhoe loader is valued for its power and versatility in various construction tasks.",
+    "type": "BackhoeLoader"
+  },
+  {
+    "name": "Volvo L120H",
+    "description": "The Volvo L120H wheel loader is recognized for its strong performance in material handling and loading tasks.",
+    "type": "WheelLoader"
+  },
+  {
+    "name": "Caterpillar 980M",
+    "description": "The Caterpillar 980M is a dependable wheel loader designed for heavy-duty construction work.",
+    "type": "WheelLoader"
+  },
+  {
+    "name": "John Deere 670G",
+    "description": "The John Deere 670G grader is known for its precision in creating smooth and level surfaces on construction sites.",
+    "type": "Grader"
+  },
+  {
+    "name": "Komatsu GD655",
+    "description": "The Komatsu GD655 motor grader is favored for its efficiency in road grading and maintenance.",
+    "type": "Grader"
+  },
+  {
+    "name": "Mack Granite",
+    "description": "The Mack Granite concrete mixer truck is renowned for delivering mixed concrete to construction projects with reliability.",
+    "type": "ConcreteMixerTruck"
+  },
+  {
+    "name": "Kenworth W900S",
+    "description": "The Kenworth W900S is a trusted choice for transporting concrete to construction sites efficiently.",
+    "type": "ConcreteMixerTruck"
+  },
+  {
+    "name": "Caterpillar AP1055F",
+    "description": "The Caterpillar AP1055F paver is known for its precision in laying asphalt for road construction.",
+    "type": "Paver"
+  },
+  {
+    "name": "LeeBoy 8510",
+    "description": "The LeeBoy 8510 asphalt paver is valued for its versatility and performance in pavement projects",
+    "type": "Paver"
+  },
+  {
+    "name": "Bomag BW211D-50",
+    "description": "The Bomag BW211D-50 vibratory roller is known for its efficiency in soil and asphalt compaction.",
+    "type": "Compactor"
+  },
+  {
+    "name": "Dynapac CA2500",
+    "description": "The Dynapac CA2500 compactor is recognized for its compaction performance in various construction tasks.",
+    "type": "Compactor"
+  },
+  {
+    "name": "Bobcat S650",
+    "description": "The Bobcat S650 skid steer loader is valued for its compact size and adaptability with a range of attachments.",
+    "type": "SkidSteerLoader"
+  },
+  {
+    "name": "Caterpillar 262D",
+    "description": "The Caterpillar 262D skid steer loader offers excellent maneuverability and versatility for construction tasks.",
+    "type": "SkidSteerLoader"
+  },
+  {
+    "name": "Liebherr 630 EC-H",
+    "description": "The Liebherr 630 EC-H tower crane is known for its lifting capacity and stability in high-rise construction projects.",
+    "type": "Crane"
+  },
+  {
+    "name": "Potain MR 295",
+    "description": "The Potain MR 295 tower crane is a trusted choice for handling heavy loads at great heights in construction.",
+    "type": "Crane"
+  }
+]

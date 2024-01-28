@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Brazil Logistic",
+    "description": "Brazilian logistic center",
+    "address": "SP-270, 10167 - Jardim Ipe, São Paulo - SP, 05577-300 - Brazil"
+  },
+  {
+    "name": "Chile Logistic",
+    "description": "Chile logistic center",
+    "address": "Las Mercedes 14851, Pudahuel, Región Metropolitana, Chile"
+  },
+  {
+    "name": "USA Logistic",
+    "description": "USA logistic center",
+    "address": "19681 Pacific Gateway Dr, Torrance, CA 90502, United States"
+  }
+]

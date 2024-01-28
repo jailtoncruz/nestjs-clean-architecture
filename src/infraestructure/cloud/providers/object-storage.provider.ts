@@ -1,4 +1,4 @@
-import { ObjectStorageService } from "../../../core/abstract/object-storage";
+import { ObjectStorageService } from "../../../core/abstract/cloud-services/object-storage";
 import { PRODUCTION_MODE } from "../../config/environment/contants";
 import { MockObjectStorageService } from "../mock/object-storage/object-storage.service";
 import { OracleObjectStorageService } from "../oracle/object-storage/object-storage.service";

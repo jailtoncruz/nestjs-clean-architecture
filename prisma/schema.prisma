@@ -1,0 +1,54 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Equipment {
+  id                  String          @id
+  name                String
+  description         String?
+  location_id         String
+  current_checkout_id String?
+  type                EquipmentType
+  status              EquipmentStatus @default(Available)
+  location            Location        @relation(fields: [location_id], references: [id])
+
+  @@map("equipments")
+}
+
+enum EquipmentStatus {
+  Available
+  Unavailable
+}
+
+enum EquipmentType {
+  Truck
+  Forklift
+  Crane
+  Excavator
+  Bulldozer
+  Grader
+  Paver
+  ConcreteMixerTruck
+  Compactor
+  SkidSteerLoader
+  BackhoeLoader
+  WheelLoader
+}
+
+model Location {
+  id          String      @id
+  name        String
+  description String?
+  address     String?
+  equipments  Equipment[]
+
+  @@map("locations")
+}

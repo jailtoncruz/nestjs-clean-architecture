@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { ObjectStorageService } from "../../../core/abstract/object-storage";
+import { ObjectStorageService } from "../../../core/abstract/cloud-services/object-storage";
 
 @Injectable()
 export class AppService {

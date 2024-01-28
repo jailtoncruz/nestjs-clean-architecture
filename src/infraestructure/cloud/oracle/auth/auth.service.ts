@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { AuthService } from "../../../../core/abstract/auth-service";
+import { AuthService } from "../../../../core/abstract/cloud-services/auth-service";
 import { LoggerService } from "../../../../core/abstract/logger-service";
 import { AuthenticationDTO } from "../../../../core/dto/auth/authentication";
 import { randomUUID } from "crypto";

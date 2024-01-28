@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  development_database:
+    image: postgres
+    restart: always
+    ports:
+      - '5438:5432'
+    environment:
+      - POSTGRES_DB=cleanarchitecture
+      - POSTGRES_USER=cleanarchitecture
+      - POSTGRES_PASSWORD=91e2a9541d8158d34e9ea591
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+      - ./data/postgresql:/var/lib/postgresql/data

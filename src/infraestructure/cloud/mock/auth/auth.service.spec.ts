@@ -1,5 +1,5 @@
 import { Test, TestingModule } from "@nestjs/testing";
-import { AuthService } from "../../../../core/abstract/auth-service";
+import { AuthService } from "../../../../core/abstract/cloud-services/auth-service";
 import { MockAuthService } from "./auth.service";
 
 describe("AuthService", () => {
