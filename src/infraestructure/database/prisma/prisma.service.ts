@@ -5,8 +5,29 @@ import { DatabaseService } from "../../../core/abstract/database/database-servic
 @Injectable()
 export class PrismaService
   extends PrismaClient
-  implements OnModuleInit, DatabaseService {
+  implements OnModuleInit, DatabaseService
+{
   async onModuleInit() {
     await this.$connect();
+  }
+
+  async create(object: any): Promise<any> {
+    return object;
+  }
+
+  async list() {
+    return [];
+  }
+
+  async getById(id: string): Promise<any> {
+    return { id };
+  }
+
+  async delete(id: string): Promise<void> {
+    console.log("deleted", id);
+  }
+
+  async update(object: any, where: { id: string }): Promise<any> {
+    return { ...object, id: where.id };
   }
 }
