@@ -1,8 +1,8 @@
-import { Injectable } from '@nestjs/common';
-import { AuthService } from '../../../../core/abstract/auth-service';
-import { LoggerService } from '../../../../core/abstract/logger-service';
-import { AuthenticationDTO } from '../../../../core/dto/auth/authentication';
-import { randomUUID } from 'crypto';
+import { Injectable } from "@nestjs/common";
+import { AuthService } from "../../../../core/abstract/auth-service";
+import { LoggerService } from "../../../../core/abstract/logger-service";
+import { AuthenticationDTO } from "../../../../core/dto/auth/authentication";
+import { randomUUID } from "crypto";
 
 @Injectable()
 export class OracleAuthService extends AuthService {
@@ -15,7 +15,7 @@ export class OracleAuthService extends AuthService {
     login: string,
     password: string,
   ): Promise<AuthenticationDTO> {
-    const bluredPassword = ''.padStart(password?.length, '*');
+    const bluredPassword = "".padStart(password?.length, "*");
     this.logger.log(`Authenticating with [${login}] and [${bluredPassword}]`);
     return {
       access: {

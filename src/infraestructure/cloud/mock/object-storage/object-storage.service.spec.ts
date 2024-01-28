@@ -1,7 +1,7 @@
-import { Test, TestingModule } from '@nestjs/testing';
-import { ObjectStorageService } from './object-storage.service';
+import { Test, TestingModule } from "@nestjs/testing";
+import { ObjectStorageService } from "./object-storage.service";
 
-describe('ObjectStorageService', () => {
+describe("ObjectStorageService", () => {
   let service: ObjectStorageService;
 
   beforeEach(async () => {
@@ -12,7 +12,7 @@ describe('ObjectStorageService', () => {
     service = module.get<ObjectStorageService>(ObjectStorageService);
   });
 
-  it('should be defined', () => {
+  it("should be defined", () => {
     expect(service).toBeDefined();
   });
 });

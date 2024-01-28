@@ -1,8 +1,8 @@
-import { DynamicModule, Global, Module } from '@nestjs/common';
-import { LoggerService } from '../../../core/abstract/logger-service';
-import { PRODUCTION_MODE } from '../../config/environment/contants';
-import { ProductionLoggerService } from './production-logger.service';
-import { DevelopmentLoggerService } from './development-logger.service';
+import { DynamicModule, Global, Module } from "@nestjs/common";
+import { LoggerService } from "../../../core/abstract/logger-service";
+import { PRODUCTION_MODE } from "../../config/environment/contants";
+import { ProductionLoggerService } from "./production-logger.service";
+import { DevelopmentLoggerService } from "./development-logger.service";
 
 const LoggerServiceProvider = {
   provide: LoggerService,

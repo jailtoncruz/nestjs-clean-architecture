@@ -1,6 +1,6 @@
-import { Global, Module } from '@nestjs/common';
-import { ObjectStorageServiceProvider } from './providers/object-storage.provider';
-import { AuthServiceProvider } from './providers/auth.provider';
+import { Global, Module } from "@nestjs/common";
+import { ObjectStorageServiceProvider } from "./providers/object-storage.provider";
+import { AuthServiceProvider } from "./providers/auth.provider";
 
 @Global()
 @Module({

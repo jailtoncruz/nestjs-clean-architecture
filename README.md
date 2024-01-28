@@ -20,6 +20,17 @@ The next layer is responsible for handling input, converting objects into DTOs a
 
 The last layer, called Core, is responsible for maintaining the business rules, such as use cases, entities and abstractions, inside the core folder (src/core).
 
+### Dependency Inversion (The D in S.O.L.I.D)
+
+It's important to say that dependency inversion is a very important concept for implementing this architecture. Once you know the three layers, some architectural rules involve each layer, for example:
+
+- Application layer and Core layer:
+
+  - Never depends directly on an implementation (present in the infrastructure layer), but depends on abstractions defined in the core layer
+
+- Infraestructure layer:
+  - Implements the abstraction and configures each implementation that will be served to the entire application (see _src/infraestructure/cloud/cloud.module.ts_).
+
 ## Installation
 
 ```bash
